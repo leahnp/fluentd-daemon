@@ -18,3 +18,4 @@ EXPOSE 24284
 
 USER fluent
 CMD exec fluentd -c /fluentd/etc/$FLUENTD_CONF -p /fluentd/plugins $FLUENTD_OPT
+USER root
